@@ -1,0 +1,13 @@
+<launch>
+    <!--启动两套海龟和键盘节点-->
+    <group ns="first">
+         <node pkg="turtlesim" type="turtlesim_node" name="turtle_my" output="screen"  />
+         <node pkg="turtlesim" type="turtle_teleop_key" name="key_my" output="screen"  />
+    </group> 
+    <group ns="second">
+         <node pkg="turtlesim" type="turtlesim_node" name="turtle_my" output="screen"  />
+         <node pkg="turtlesim" type="turtle_teleop_key" name="key_my" output="screen"  />
+    </group> 
+
+
+</launch>

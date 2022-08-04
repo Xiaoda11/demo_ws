@@ -1,0 +1,9 @@
+<launch>
+    <!-- 演示arg 需要多个参数 参数使用同一个值 -->
+    <arg name="car_length" default="0.5" />
+    <param name="A" value="$(arg car_length)"/>
+    <param name="B" value="$(arg car_length)"/>
+    <param name="C" value="$(arg car_length)"/>
+    <param name="d" value="$(arg car_length)"/>
+
+</launch>

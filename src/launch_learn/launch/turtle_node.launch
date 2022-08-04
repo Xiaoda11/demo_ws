@@ -1,0 +1,27 @@
+<launch>
+<!-- node 标签属性 -->
+    <!-- respawn="true"  节点关闭后重启 respawn_delay="num"关闭多少s后重启-->
+    <!-- required="true" 必须节点 此节点关闭 系统关闭 -->
+    <!-- ns="%s"  在该命名空间下启动节点-->
+    <!-- param 向参数服务器设置参数  -->
+    <!--格式1 launch标签下  -->
+    <param name="param_a" type="int" value="100" />
+
+    <!-- rosparam 的使用 ： 操作参数服务器数据 -->
+    <!-- rosparam格式1  launch标签下 -->
+    <!-- 加载参数 -->
+    <rosparam  command="load" file="$(find launch_learn)launch/param1.yaml" />
+    <!-- 导出参数  见dump_launch.launch-->
+    
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle_my" output="screen"  >
+        <remap from="/turtle1/cmd_vel" to="/cmd_vel"/>
+        <!-- 格式2 node标签下 -->
+        <!-- 两种格式参数命名空间不同 1是全局空间  /param_a 2是私有空间，此处指  /turtle/param_b -->
+        <param name="param_b" type="double" value="101.77" />
+        <!-- rosparam  格式2 node标签下 -->
+        <rosparam  command="load" file="$(find launch_learn)launch/param1.yaml" />
+    </node>
+
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key_my" output="screen"  />
+</launch>

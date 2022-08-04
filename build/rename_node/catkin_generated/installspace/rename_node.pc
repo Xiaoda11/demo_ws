@@ -1,0 +1,8 @@
+prefix=/home/ljm/demo_ws/install
+
+Name: rename_node
+Description: Description of rename_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

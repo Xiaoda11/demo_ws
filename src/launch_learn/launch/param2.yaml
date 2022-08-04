@@ -1,0 +1,3 @@
+roslaunch:
+  uris: {host_ljm_ubuntu18__34077: 'http://ljm-ubuntu18:34077/'}
+run_id: 52fd64aa-1196-11ed-b220-000c2955d199

@@ -1,0 +1,13 @@
+<!-- 启动多个海龟节点 -->
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node"  name="turtle1" />
+    <!--名称重映射  -->
+    <node pkg="turtlesim" type="turtlesim_node"  name="turtle_new" />
+    <!-- 命名空间 -->
+    <node pkg="turtlesim" type="turtlesim_node"  name="turtle1" ns="new" />
+    <!-- 命名空间叠加 名称重映射-->
+    <node pkg="turtlesim" type="turtlesim_node"  name="turtle_new" ns="new" />
+
+
+
+</launch>

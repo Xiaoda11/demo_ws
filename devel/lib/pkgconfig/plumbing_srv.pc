@@ -1,0 +1,8 @@
+prefix=/home/ljm/demo_ws/devel
+
+Name: plumbing_srv
+Description: Description of plumbing_srv
+Version: 0.0.0
+Cflags: -I/home/ljm/demo_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,15 @@
+bg_b: 255
+bg_g: 100
+bg_r: 100
+param_a: 100
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_ljm_ubuntu18__34077: 'http://ljm-ubuntu18:34077/', host_ljm_ubuntu18__37771: 'http://ljm-ubuntu18:37771/'}
+rosversion: '1.14.13
+
+  '
+run_id: 52fd64aa-1196-11ed-b220-000c2955d199
+turtle_my: {background_b: 255, background_g: 86, background_r: 69, bg_b: 255, bg_g: 100,
+  bg_r: 100, param_b: 101.77}

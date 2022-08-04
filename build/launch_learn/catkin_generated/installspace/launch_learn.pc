@@ -1,0 +1,8 @@
+prefix=/home/ljm/demo_ws/install
+
+Name: launch_learn
+Description: Description of launch_learn
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
