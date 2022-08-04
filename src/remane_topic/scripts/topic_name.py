@@ -5,7 +5,7 @@ import rospy
 from std_msgs.msg import String
 
 if __name__=="__main__":
-    rospy.init_node("hello")
+    rospy.init_node("hello_ss")
 
 
     while not rospy.is_shutdown():
