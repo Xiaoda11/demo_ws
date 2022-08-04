@@ -14,7 +14,7 @@ if __name__=="__main__":
 
     # 相对
 
-    pub=rospy.Publisher("chatteraaa",String,queue_size=10)
+    pub=rospy.Publisher("chatter",String,queue_size=10)
 
    
 
