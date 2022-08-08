@@ -140,6 +140,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ljm/demo_ws/build/rename_node/cmake_install.cmake")
   include("/home/ljm/demo_ws/build/tf01_static/cmake_install.cmake")
   include("/home/ljm/demo_ws/build/launch_learn/cmake_install.cmake")
+  include("/home/ljm/demo_ws/build/tf02_dynamic/cmake_install.cmake")
 
 endif()
 
