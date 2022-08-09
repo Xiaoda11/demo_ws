@@ -2564,6 +2564,24 @@ tf02_dynamic/preinstall:
 .PHONY : tf02_dynamic/preinstall
 
 #=============================================================================
+# Directory level rules for directory tf04_turtle_tracking
+
+# Convenience name for "all" pass in the directory.
+tf04_turtle_tracking/all:
+
+.PHONY : tf04_turtle_tracking/all
+
+# Convenience name for "clean" pass in the directory.
+tf04_turtle_tracking/clean:
+
+.PHONY : tf04_turtle_tracking/clean
+
+# Convenience name for "preinstall" pass in the directory.
+tf04_turtle_tracking/preinstall:
+
+.PHONY : tf04_turtle_tracking/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -171,3 +171,10 @@
 /home/ljm/demo_ws/build/tf02_dynamic/CMakeFiles/install/local.dir
 /home/ljm/demo_ws/build/tf02_dynamic/CMakeFiles/rebuild_cache.dir
 /home/ljm/demo_ws/build/tf02_dynamic/CMakeFiles/install.dir
+/home/ljm/demo_ws/build/tf04_turtle_tracking/CMakeFiles/install/strip.dir
+/home/ljm/demo_ws/build/tf04_turtle_tracking/CMakeFiles/edit_cache.dir
+/home/ljm/demo_ws/build/tf04_turtle_tracking/CMakeFiles/list_install_components.dir
+/home/ljm/demo_ws/build/tf04_turtle_tracking/CMakeFiles/test.dir
+/home/ljm/demo_ws/build/tf04_turtle_tracking/CMakeFiles/install/local.dir
+/home/ljm/demo_ws/build/tf04_turtle_tracking/CMakeFiles/rebuild_cache.dir
+/home/ljm/demo_ws/build/tf04_turtle_tracking/CMakeFiles/install.dir

@@ -1,0 +1,18 @@
+<launch>
+    <!-- 启动海龟以及键盘控制 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" output="screen" />
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key" output="screen" />
+    <!-- 生成第二只海龟 -->
+    <node pkg="tf04_turtle_tracking" type="test01_spawn_new.py" name="turtle2" output="screen" />
+    <!-- 发布两个海龟的坐标 -->
+        <!--
+        1 复用tf02 功能 
+        2 调用节点时 以参数形式传递乌龟名称 解析参数 置换 ：订阅的话题消息 和 子级坐标系名称
+        -->
+    <node pkg="tf04_turtle_tracking" type="test02_pub_turtle.py" name="pub1" output="screen" args="turtle1"/>
+    <node pkg="tf04_turtle_tracking" type="test02_pub_turtle.py" name="pub2" output="screen" args="turtle2"/>
+    <!-- 订阅坐标 转换为乌龟1相对与乌龟2的坐标 生成对乌龟2的速度信息并且发布 -->
+    <node pkg="tf04_turtle_tracking" type="test03_control_turtle2.py" name="control" output="screen" />
+    
+
+</launch>

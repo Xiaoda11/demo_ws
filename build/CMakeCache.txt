@@ -477,6 +477,12 @@ tf03_tfs_BINARY_DIR:STATIC=/home/ljm/demo_ws/build/tf03_tfs
 //Value Computed by CMake
 tf03_tfs_SOURCE_DIR:STATIC=/home/ljm/demo_ws/src/tf03_tfs
 
+//Value Computed by CMake
+tf04_turtle_tracking_BINARY_DIR:STATIC=/home/ljm/demo_ws/build/tf04_turtle_tracking
+
+//Value Computed by CMake
+tf04_turtle_tracking_SOURCE_DIR:STATIC=/home/ljm/demo_ws/src/tf04_turtle_tracking
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/melodic/share/tf2/cmake
 
@@ -611,7 +617,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
